@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(101, 233, 233);
+    height: 90vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin:20px;
+}
+.container{
+    height: 400px;
+    width:400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.box{
+    height: 120px;
+    width: 120px;
+    border-radius: 10px;
+    border: none;
+    margin:5px; 
+    color: black;
+    background-color: whitesmoke;  
+    font-size: 50px;
+}
+.reset{
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+.new {
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: black;
+    color: white;   
+}
+#winner{
+    font-size: 30px;
+}
+.message{
+    height: 100px;
+}
+.hide{
+    display: none;
+}
